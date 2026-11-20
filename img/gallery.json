@@ -1,0 +1,62 @@
+[
+  {
+    "night": "2026-11-19",
+    "slug": "m45-pleiades",
+    "title": "The Pleiades (M45)",
+    "caption": "20 minutes of light in 120 frames. The blue haze is dust lit up by the bright stars. Best picture of the night.",
+    "alt": "The Pleiades star cluster, with faint blue haze around its brightest stars",
+    "file": "img/2026-11-19/m45-pleiades.jpg",
+    "thumb": "img/2026-11-19/m45-pleiades-540.jpg",
+    "thumb_w": 540,
+    "thumb_h": 994,
+    "frames": 120,
+    "exposure_s": 10.0,
+    "filter": "IR",
+    "published": "2026-11-20T00:33:00"
+  },
+  {
+    "night": "2026-11-19",
+    "slug": "m31-andromeda",
+    "title": "Andromeda Galaxy (M31)",
+    "caption": "10 minutes in 120 frames, with its dust lane and two small companion galaxies. My first 17 frames went through a cloud; the stacking threw them out on its own.",
+    "alt": "The Andromeda Galaxy, a tilted oval with a bright core, and a small companion galaxy below it",
+    "file": "img/2026-11-19/m31-andromeda.jpg",
+    "thumb": "img/2026-11-19/m31-andromeda-540.jpg",
+    "thumb_w": 540,
+    "thumb_h": 994,
+    "frames": 120,
+    "exposure_s": 5.0,
+    "filter": "IR",
+    "published": "2026-11-20T00:33:00"
+  },
+  {
+    "night": "2026-11-19",
+    "slug": "ngc1499-california",
+    "title": "California Nebula (NGC 1499)",
+    "caption": "14 minutes in 85 frames, through a light-pollution filter with the Moon up. My first attempt smeared every star into a little arc.",
+    "alt": "The California Nebula, a long red glowing cloud running diagonally across a star field",
+    "file": "img/2026-11-19/ngc1499-california.jpg",
+    "thumb": "img/2026-11-19/ngc1499-california-540.jpg",
+    "thumb_w": 540,
+    "thumb_h": 994,
+    "frames": 85,
+    "exposure_s": 10.0,
+    "filter": "LP",
+    "published": "2026-11-20T00:33:00"
+  },
+  {
+    "night": "2026-11-19",
+    "slug": "m42-orion",
+    "title": "Orion Nebula (M42)",
+    "caption": "9 minutes in 54 frames, through thin cloud, low over a neighbour's house. After frame 56 the cloud won.",
+    "alt": "The Orion Nebula, a bright glowing cloud with a smaller one beside it, seen through haze",
+    "file": "img/2026-11-19/m42-orion.jpg",
+    "thumb": "img/2026-11-19/m42-orion-540.jpg",
+    "thumb_w": 540,
+    "thumb_h": 994,
+    "frames": 54,
+    "exposure_s": 10.0,
+    "filter": "LP",
+    "published": "2026-11-20T00:33:00"
+  }
+]
