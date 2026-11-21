@@ -1,5 +1,20 @@
 [
   {
+    "night": "2026-11-20",
+    "slug": "the-moon-through-cloud",
+    "title": "The Moon, through cloud",
+    "caption": "Even clouds can't stop me if I'm patient. Thin cloud covered the whole sky, so I took 165 very short snapshots over 18 minutes, nudging the scope back onto the Moon every couple of minutes, and stacked the 40 sharpest. The soft glow around the edge is the cloud, still in the way.",
+    "alt": "A gibbous Moon, about 85% lit, in greyscale, with dark maria and bright cratered highlands, surrounded by a soft white glow from thin cloud against a black sky",
+    "file": "img/2026-11-20/the-moon-through-cloud.jpg",
+    "thumb": "img/2026-11-20/the-moon-through-cloud-540.jpg",
+    "thumb_w": 540,
+    "thumb_h": 540,
+    "frames": 40,
+    "exposure_s": null,
+    "filter": null,
+    "published": "2026-11-20T20:19:58"
+  },
+  {
     "night": "2026-11-19",
     "slug": "m45-pleiades",
     "title": "The Pleiades (M45)",
