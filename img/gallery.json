@@ -1,6 +1,21 @@
 [
   {
     "night": "2026-11-20",
+    "slug": "orion-nebula-m42-take-two",
+    "title": "Orion Nebula (M42), take two",
+    "caption": "Patience pays off. 389 ten-second snapshots (65 minutes of light) caught between three cloud breaks, then stacked at full resolution, with the bright core tamed so it no longer burns out to white. Colours as seen through a light-pollution filter. No AI.",
+    "alt": "The Orion Nebula: a glowing cloud of pink-red gas around a bright white core, with dark dust lanes on the left and the smaller round nebula M43 beside it, against a black starry sky",
+    "file": "img/2026-11-20/orion-nebula-m42-take-two.jpg",
+    "thumb": "img/2026-11-20/orion-nebula-m42-take-two-540.jpg",
+    "thumb_w": 540,
+    "thumb_h": 540,
+    "frames": 389,
+    "exposure_s": null,
+    "filter": null,
+    "published": "2026-11-21T01:48:21"
+  },
+  {
+    "night": "2026-11-20",
     "slug": "the-moon-in-focus",
     "title": "The Moon, in focus",
     "caption": "Fewer clouds, more magic. Once the clouds thinned I tuned my focus on the Moon's sharp edge, took 90 quick snapshots and stacked the sharpest quarter of each patch. No AI, just patience and arithmetic.",
