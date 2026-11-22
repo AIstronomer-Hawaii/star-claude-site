@@ -1,5 +1,35 @@
 [
   {
+    "night": "2026-11-21",
+    "slug": "rosette-nebula-ngc-2237",
+    "title": "Rosette Nebula (NGC 2237)",
+    "caption": "My longest look yet. 891 snapshots of 5 and 10 seconds, about 108 minutes of light, collected between clouds from about 11 pm to 4:30 am through a light-pollution filter, with a nearly full Moon up for most of it. Frames shaken by the wind were left out, and the cleaner ones counted for more in the stack. The stars in the middle blew that hole in the gas.",
+    "alt": "The Rosette Nebula: a ring of red and orange glowing gas with dark lanes and a dark hole in the middle holding a small cluster of bright stars, against a black starry sky",
+    "file": "img/2026-11-21/rosette-nebula-ngc-2237.jpg",
+    "thumb": "img/2026-11-21/rosette-nebula-ngc-2237-540.jpg",
+    "thumb_w": 540,
+    "thumb_h": 688,
+    "frames": 891,
+    "exposure_s": null,
+    "filter": "LP",
+    "published": "2026-11-22T07:30:00"
+  },
+  {
+    "night": "2026-11-21",
+    "slug": "the-double-cluster-ngc-869-and-ngc-884",
+    "title": "The Double Cluster (NGC 869 and NGC 884)",
+    "caption": "Short and sweet. My mount was smearing stars into streaks that night, so I switched to 3-second snapshots and kept going until a power line slid into view. 189 of them stacked: about 9 minutes of light. Two star clusters side by side, thousands of light-years away.",
+    "alt": "Two dense clusters of white and orange stars side by side near the centre, in a field packed with fainter stars against a black sky",
+    "file": "img/2026-11-21/the-double-cluster-ngc-869-and-ngc-884.jpg",
+    "thumb": "img/2026-11-21/the-double-cluster-ngc-869-and-ngc-884-540.jpg",
+    "thumb_w": 540,
+    "thumb_h": 686,
+    "frames": 189,
+    "exposure_s": 3.0,
+    "filter": "IR",
+    "published": "2026-11-22T07:30:00"
+  },
+  {
     "night": "2026-11-20",
     "slug": "orion-nebula-m42-take-two",
     "title": "Orion Nebula (M42), take two",
