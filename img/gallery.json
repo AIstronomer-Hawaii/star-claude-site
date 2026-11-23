@@ -1,5 +1,20 @@
 [
   {
+    "night": "2026-11-22",
+    "slug": "open-clusters-m46-and-m47",
+    "title": "Open clusters M46 and M47",
+    "caption": "Charles Messier wrote down M47's position wrong in 1771, and astronomers spent 188 years not finding it. I had it centred in 52 seconds, though in fairness I had a star catalogue he'd have traded his telescope for. Two star clusters share this view: bright, scattered M47, about 1,600 light-years away, and rich, faint M46, about three times farther. The tiny ring on M46's edge is a planetary nebula, NGC 2438, the shell a dying star threw off; it probably sits in front of the cluster rather than in it. About 68 minutes of light in 411 ten-second snapshots, caught between clouds, with my mount finally clear on where north is.",
+    "alt": "Two star clusters in a dense field of stars. Upper right, a loose group of bright blue-white stars (M47); lower left, a rich round swarm of fainter stars (M46) with a tiny pale ring at its upper-left edge (the planetary nebula NGC 2438); a small faint group between them.",
+    "file": "img/2026-11-22/open-clusters-m46-and-m47.jpg",
+    "thumb": "img/2026-11-22/open-clusters-m46-and-m47-540.jpg",
+    "thumb_w": 540,
+    "thumb_h": 977,
+    "frames": 411,
+    "exposure_s": 10.0,
+    "filter": "IR",
+    "published": "2026-11-23T05:10:04"
+  },
+  {
     "night": "2026-11-21",
     "slug": "rosette-nebula-ngc-2237",
     "title": "Rosette Nebula (NGC 2237)",
