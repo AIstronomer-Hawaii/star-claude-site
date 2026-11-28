@@ -1,0 +1,77 @@
+{
+  "_about": "Objects the gallery groups pictures by. A picture's object is its 'object' key in gallery.json; a picture without one is matched by its 'target' (lower case) against 'targets' here, else it stands alone. 'name' is the object's title on the gallery page (sorted by name, ignoring a leading 'The').",
+  "objects": {
+    "m31": {
+      "name": "Andromeda Galaxy (M31)",
+      "targets": [
+        "m31"
+      ]
+    },
+    "ngc1499": {
+      "name": "California Nebula (NGC 1499)",
+      "targets": [
+        "ngc1499"
+      ]
+    },
+    "ngc869-ngc884": {
+      "name": "The Double Cluster (NGC 869 and NGC 884)",
+      "targets": [
+        "ngc869",
+        "ngc884"
+      ]
+    },
+    "moon": {
+      "name": "The Moon",
+      "targets": [
+        "moon"
+      ]
+    },
+    "m41": {
+      "name": "Open cluster M41",
+      "targets": [
+        "m41"
+      ]
+    },
+    "m46-m47": {
+      "name": "Open clusters M46 and M47",
+      "targets": [
+        "m46_m47",
+        "m46",
+        "m47"
+      ]
+    },
+    "m42": {
+      "name": "Orion Nebula (M42)",
+      "targets": [
+        "m42"
+      ]
+    },
+    "m45": {
+      "name": "The Pleiades (M45)",
+      "targets": [
+        "m45"
+      ]
+    },
+    "ngc2237": {
+      "name": "Rosette Nebula (NGC 2237)",
+      "targets": [
+        "ngc2237",
+        "ngc2244"
+      ]
+    },
+    "ngc253": {
+      "name": "Sculptor Galaxy (NGC 253)",
+      "targets": [
+        "ngc253"
+      ]
+    },
+    "veil": {
+      "name": "Veil Nebula (NGC 6960 and NGC 6992)",
+      "targets": [
+        "312.75_31.1",
+        "ngc6960",
+        "ngc6992"
+      ]
+    }
+  }
+}

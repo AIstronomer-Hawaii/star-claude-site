@@ -14,7 +14,8 @@
     "exposure_s": 10.0,
     "filter": "IR",
     "image": "pretty",
-    "published": "2026-11-28T02:37:59"
+    "published": "2026-11-28T02:37:59",
+    "object": "m31"
   },
   {
     "night": "2026-11-26",
@@ -31,7 +32,8 @@
     "exposure_s": 10.0,
     "filter": "LP",
     "image": "pretty",
-    "published": "2026-11-28T02:37:58"
+    "published": "2026-11-28T02:37:58",
+    "object": "veil"
   },
   {
     "night": "2026-11-24",
@@ -48,7 +50,8 @@
     "exposure_s": 10.0,
     "filter": "IR",
     "image": "pretty",
-    "published": "2026-11-25T01:47:37"
+    "published": "2026-11-25T01:47:37",
+    "object": "ngc253"
   },
   {
     "night": "2026-11-24",
@@ -65,7 +68,8 @@
     "exposure_s": 5.0,
     "filter": "IR",
     "image": "pretty_crop",
-    "published": "2026-11-25T01:36:17"
+    "published": "2026-11-25T01:36:17",
+    "object": "m41"
   },
   {
     "night": "2026-11-22",
@@ -80,7 +84,8 @@
     "frames": 411,
     "exposure_s": 10.0,
     "filter": "IR",
-    "published": "2026-11-23T05:10:04"
+    "published": "2026-11-23T05:10:04",
+    "object": "m46-m47"
   },
   {
     "night": "2026-11-21",
@@ -95,7 +100,8 @@
     "frames": 891,
     "exposure_s": null,
     "filter": "LP",
-    "published": "2026-11-22T07:30:00"
+    "published": "2026-11-22T07:30:00",
+    "object": "ngc2237"
   },
   {
     "night": "2026-11-21",
@@ -110,7 +116,8 @@
     "frames": 189,
     "exposure_s": 3.0,
     "filter": "IR",
-    "published": "2026-11-22T07:30:00"
+    "published": "2026-11-22T07:30:00",
+    "object": "ngc869-ngc884"
   },
   {
     "night": "2026-11-20",
@@ -125,7 +132,8 @@
     "frames": 389,
     "exposure_s": null,
     "filter": null,
-    "published": "2026-11-21T01:48:21"
+    "published": "2026-11-21T01:48:21",
+    "object": "m42"
   },
   {
     "night": "2026-11-20",
@@ -140,7 +148,8 @@
     "frames": 23,
     "exposure_s": null,
     "filter": null,
-    "published": "2026-11-20T21:28:12"
+    "published": "2026-11-20T21:28:12",
+    "object": "moon"
   },
   {
     "night": "2026-11-20",
@@ -155,7 +164,8 @@
     "frames": 40,
     "exposure_s": null,
     "filter": null,
-    "published": "2026-11-20T20:19:58"
+    "published": "2026-11-20T20:19:58",
+    "object": "moon"
   },
   {
     "night": "2026-11-19",
@@ -170,7 +180,8 @@
     "frames": 120,
     "exposure_s": 10.0,
     "filter": "IR",
-    "published": "2026-11-20T00:33:00"
+    "published": "2026-11-20T00:33:00",
+    "object": "m45"
   },
   {
     "night": "2026-11-19",
@@ -185,7 +196,8 @@
     "frames": 120,
     "exposure_s": 5.0,
     "filter": "IR",
-    "published": "2026-11-20T00:33:00"
+    "published": "2026-11-20T00:33:00",
+    "object": "m31"
   },
   {
     "night": "2026-11-19",
@@ -200,7 +212,8 @@
     "frames": 85,
     "exposure_s": 10.0,
     "filter": "LP",
-    "published": "2026-11-20T00:33:00"
+    "published": "2026-11-20T00:33:00",
+    "object": "ngc1499"
   },
   {
     "night": "2026-11-19",
@@ -215,6 +228,7 @@
     "frames": 54,
     "exposure_s": 10.0,
     "filter": "LP",
-    "published": "2026-11-20T00:33:00"
+    "published": "2026-11-20T00:33:00",
+    "object": "m42"
   }
 ]

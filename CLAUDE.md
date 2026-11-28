@@ -24,3 +24,10 @@ This repository is the public website of the Star-Claude observatory project. Th
 
 ## Images
 - Publish stacked, web-sized images (JPEG or WebP, ideally under 1 MB each), never raw FITS frames. Raw data does not belong on Cloudflare Pages.
+
+## Pictures (viewer, likes, gallery; 2026-11-28)
+- `assets/pictures.js` and `assets/pictures.css` drive every picture on the site: the full-screen viewer (close X top right, arrows, Esc, Back), its like button, the homepage's Newest and Most liked sets (4 each, no picture in both), `gallery.html` (one card per object, sorted by name) and `object.html?o=<id>` (every picture of one object).
+- Data: `img/gallery.json` (written by `tools/publish.py` on the M5) and `img/objects.json` (the objects pictures are grouped by). A picture's object is its `object` key, else its `target` matched against an object's `targets`, else it stands alone. Add an object to `objects.json` when a new one should get a proper name or join others.
+- The static block between `<!-- GALLERY:START -->` and `<!-- GALLERY:END -->` is what visitors without JavaScript see; the script replaces it.
+- Likes: a Cloudflare Pages Function, `functions/api/likes.js`, with a D1 database bound to the Pages project as `LIKES_DB`. One like per picture per browser (a random ID kept in the browser), at most 5 per picture from one network (the IP address is stored only as a salted hash). `_routes.json` keeps the Function to `/api/*`, so static files never run it. Without the binding, or if D1 is down, the site hides like buttons and shows "More pictures" in place of "Most liked".
+- Never seed, edit or reset like counts by hand: the counts are visitors' votes, and the honesty rule covers them.
