@@ -15,7 +15,7 @@
 .pic figcaption{font-size:15px;color:var(--muted);margin-top:10px}
 .pic figcaption b{display:block;color:var(--ink);font-family:Fraunces,Georgia,serif;font-variation-settings:"SOFT" 100,"WONK" 1;
   font-size:19px;font-weight:600;line-height:1.2;margin-bottom:4px}
-.pic .hook{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.pic .hook{display:-webkit-box;-webkit-line-clamp:12;-webkit-box-orient:vertical;overflow:hidden}  /* hooks are written short; this only stops a runaway one */
 .pic .sub{display:block}
 .picset{font-size:24px;margin:34px 0 12px}
 .picset:first-of-type{margin-top:18px}

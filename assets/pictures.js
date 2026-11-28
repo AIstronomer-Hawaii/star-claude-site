@@ -36,10 +36,13 @@
   const liked = new Set((() => { try { return JSON.parse(store.get(LIKED_KEY) || "[]"); } catch { return []; } })());
   const saveLiked = () => store.set(LIKED_KEY, JSON.stringify([...liked]));
 
-  /** The caption's first sentence: the hook shown under a thumbnail (the full caption is in the viewer). */
-  function hook(caption) {
-    const m = String(caption || "").match(/^.+?[.!?](?=\s+["'“A-Z0-9]|$)/);
-    return m ? m[0] : caption || "";
+  /** The hook shown under a thumbnail: the caption's brief, attention-grabbing start (the whole caption is in
+      the viewer). It is the entry's own "hook" when it has one; an older entry without one falls back to the
+      caption's first sentence. Every caption starts with a hook (the owner, 2026-11-28). */
+  function hook(p) {
+    if (p.hook) return p.hook;
+    const m = String(p.caption || "").match(/^.+?[.!?](?=\s+["'“A-Z0-9]|$)/);
+    return m ? m[0] : p.caption || "";
   }
   const nightText = n => new Date(n + "T12:00:00Z").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
 
@@ -84,7 +87,7 @@
   function card(p, { sub = "", href, slug = p.slug, showHook = true, label } = {}) {
     return `<figure class="pic"><a class="thumb" href="${esc(href || p.file)}" data-slug="${esc(slug)}"${href ? ' data-nav="1"' : ""}>` +
       `<img src="${esc(p.thumb)}" width="${p.thumb_w || 540}" height="${p.thumb_h || 675}" loading="lazy" alt="${esc(p.alt)}"></a>` +
-      `<figcaption><b>${esc(label || p.title)}</b>${showHook ? `<span class="hook">${esc(hook(p.caption))}</span>` : ""}` +
+      `<figcaption><b>${esc(label || p.title)}</b>${showHook ? `<span class="hook">${esc(hook(p))}</span>` : ""}` +
       `${sub ? `<span class="sub">${sub}</span>` : ""}</figcaption></figure>`;
   }
 
