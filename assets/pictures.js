@@ -5,7 +5,8 @@
    Data: /img/gallery.json (one entry per picture, newest first; tools/publish.py on the M5 writes it),
    /img/objects.json (the objects pictures are grouped by) and /api/likes (like counts; functions/api/likes.js).
    Without JavaScript every thumbnail is still a plain link to the full-size picture. If the likes service is
-   down, the pictures still work: like buttons and counts are hidden and "Most liked" becomes "More pictures". */
+   down, the pictures still work: the like button is hidden and "Most liked" becomes "More pictures".
+   Like counts appear only in the viewer, never on thumbnails (the owner's call, 2026-11-28). */
 (() => {
   "use strict";
 
@@ -81,15 +82,10 @@
 
   // ---------- cards ----------
   function card(p, { sub = "", href, slug = p.slug, showHook = true, label } = {}) {
-    const n = likesOf(slug);
-    const badge = counts ? `<span class="count" data-count-for="${esc(slug)}">${HEART}${n}</span>` : "";
     return `<figure class="pic"><a class="thumb" href="${esc(href || p.file)}" data-slug="${esc(slug)}"${href ? ' data-nav="1"' : ""}>` +
-      `<img src="${esc(p.thumb)}" width="${p.thumb_w || 540}" height="${p.thumb_h || 675}" loading="lazy" alt="${esc(p.alt)}">${badge}</a>` +
+      `<img src="${esc(p.thumb)}" width="${p.thumb_w || 540}" height="${p.thumb_h || 675}" loading="lazy" alt="${esc(p.alt)}"></a>` +
       `<figcaption><b>${esc(label || p.title)}</b>${showHook ? `<span class="hook">${esc(hook(p.caption))}</span>` : ""}` +
       `${sub ? `<span class="sub">${sub}</span>` : ""}</figcaption></figure>`;
-  }
-  function refreshCounts(slug) {
-    document.querySelectorAll(`[data-count-for="${CSS.escape(slug)}"]`).forEach(el => { el.innerHTML = HEART + likesOf(slug); });
   }
 
   // ---------- the viewer ----------
@@ -187,7 +183,6 @@
         counts[p.slug] = data.likes;
         if (data.liked) liked.add(p.slug); else liked.delete(p.slug);
         saveLiked();
-        refreshCounts(p.slug);
         showLike();
       } else {
         const note = $(".like-note", dlg);
@@ -288,11 +283,9 @@
       const pics = pictures.filter(p => p.obj === id).sort(byRating);
       const best = pics[0];
       if (pics.length === 1) { singles.push(best); return card(best, { label: objectName(id), showHook: false, sub: "1 picture" }); }
-      const total = pics.reduce((s, p) => s + likesOf(p.slug), 0);
       return card(best, { label: objectName(id), showHook: false, href: `/object?o=${encodeURIComponent(id)}`,
-        sub: `${pics.length} pictures` + (counts ? ` · ${total} ${total === 1 ? "like" : "likes"}` : "") });
+        sub: `${pics.length} pictures` });
     }).join("");
-    box.querySelectorAll("a[data-nav] .count").forEach(el => el.remove());   // an object card's count would be just its best picture's
     wire(box, singles);
     $("#gallery-count").textContent = `${pictures.length} pictures of ${ids.length} objects, sorted by name.`;
   }
