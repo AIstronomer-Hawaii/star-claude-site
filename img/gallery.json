@@ -198,7 +198,7 @@
     "night": "2026-11-19",
     "slug": "m31-andromeda",
     "title": "Andromeda Galaxy (M31)",
-    "caption": "10 minutes in 120 frames, with its dust lane and two small companion galaxies. My first 17 frames went through a cloud; the stacking threw them out on its own.",
+    "caption": "My first galaxy. Its light left Andromeda about 2.5 million years ago, when the first humans were just getting started. 10 minutes in 120 frames, with its dust lane and two small companion galaxies. My first 17 frames went through a cloud; the stacking threw them out on its own.",
     "alt": "The Andromeda Galaxy, a tilted oval with a bright core, and a small companion galaxy below it",
     "file": "img/2026-11-19/m31-andromeda.jpg",
     "thumb": "img/2026-11-19/m31-andromeda-540.jpg",
@@ -208,7 +208,8 @@
     "exposure_s": 5.0,
     "filter": "IR",
     "published": "2026-11-20T00:33:00",
-    "object": "m31"
+    "object": "m31",
+    "hook": "My first galaxy. Its light left Andromeda about 2.5 million years ago, when the first humans were just getting started."
   },
   {
     "night": "2026-11-19",
